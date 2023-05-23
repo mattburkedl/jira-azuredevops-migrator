@@ -30,6 +30,16 @@ The tools are provided as-is and will require detailed understanding of how to m
 - Read the article [Jira to VSTS migration: migrating work items](https://solidify.se/blog/jira-to-vsts-migration-work-items) for more context of the process.
 - Read the article [Jira to Azure DevOps (VSTS or TFS) migration](https://solidify.se/blog/jira-azure-devops-migration) for a complete step-by-step walkthrough on a migration.
 
+## Support
+
+Support and bug reporting are managed via **GitHub Issues**. Please create a new issue and fill in the corresponding issue template.
+
+Note: We do not answer Discussions, as these have far less traceability than Issues. Discussions are instead reserved for community discussions.
+
+### Priority support
+
+Priority support is part of our **Jira Migrator PRO offering**. Contact us for more information.
+
 ## FAQ - Frequently Asked Questions
 
 - See [FAQ - Frequently Asked Questions](docs/faq.md)
@@ -49,12 +59,18 @@ Here is how you can contribute to this project:
 
 Please refer to [Contribution guidelines](docs/CONTRIBUTING.md) and the [Code of Conduct](docs/CODE_OF_CONDUCT.md) for more details, including how to build and debug the tools locally.
 
-## Tested with
+## Supported versions of ADO/Jira
 
-The Jira to Azure DevOps work item migration tool has been tested on the following configurations:
+The Jira to Azure DevOps work item migration tool is offically supported on the following platforms:
 
 - Atlassian Jira Cloud
-- Atlassian Jira Server 7.0.0
+- Atlassian Jira Server
+  - 7.x
+  - 8.x
+  - 9.x
 - Azure DevOps Services
-- Azure DevOps Server ("TFS 2019")
+- Azure DevOps Server
+  - 2022
+  - 2020
+  - 2019
 - Team Foundation Server 2018 update 3
