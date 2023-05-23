@@ -513,6 +513,10 @@ namespace JiraExport
             {
                 serializedValue = serializer.FromJson(value);
             }
+            if(serializedValue.Length == 0)
+            {
+                serializedValue = value.Children()["name"].Values<string>().ToArray();
+            }
 
             return serializedValue;
         }
